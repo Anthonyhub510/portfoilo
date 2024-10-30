@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:cursive;
+    background: #082486b1;
+}
+.navbar{
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 45px;
+    background: linear-gradient(to bottom,#3f2afd,#2b0565);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navlinks a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+padding: 0px 20px;
+}
+
+.hero{
+margin-bottom: 50px;
+}
+
+.computer-portfolio{
+    height: 450px;
+    width: 650px;
+border-radius: 100%;
+}
+
+.intro{
+    color: white;
+    display: flex;
+ font-size: 20px;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1{
+    padding: 25px;
+}
+.about{
+    padding: 0px 20px;
+}
+
+.about h1{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about p{
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-portfolio-two{
+    height: 450px;
+    width: 650px;
+}
+
+.projects{
+color: white;
+padding: 50px 50px;
+}
+.projects-boxes{
+    color: white;
+ font-size: 20px;
+ display: grid;
+ gap: 20;
+ row-gap: 20;
+ grid-template-columns: auto auto auto;
+}
+
+.project-container {
+
+
+}
+.projects h1{
+margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.project{
+    height: 150px;
+    width: 350px;
+    border-radius: 25px;
+ 
+}
+.img-screenshot{
+    height: 150px;
+    width: 250px;
+    border-radius: 25px;
+}
+.projects a{
+
+    color: white;
+    text-decoration: none;
+} 
